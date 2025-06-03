@@ -1,0 +1,47 @@
+body
+{
+    padding: 2rem;
+}
+
+/* Hidden paragraph */
+
+.hidden
+{
+    display: none;
+}
+
+#hiddenParagraphContainer
+{
+    margin-bottom: 2rem;
+}
+
+/* Form */
+
+#messageForm
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#messagesContainer
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.errorInput
+{
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+.errorMessage
+{
+    color: red;
+}
+
+.successMessage
+{
+    color: green;
+}
