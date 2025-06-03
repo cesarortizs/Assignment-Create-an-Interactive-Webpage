@@ -19,8 +19,21 @@ body
 
 #messageForm
 {
+    background-color: #dddddd;
     display: flex;
     flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+#messageForm *
+{
+    margin: 1rem 0;
+}
+
+#messageForm textarea
+{
+    height: 150px;
+    resize: none;
 }
 
 #messagesContainer
